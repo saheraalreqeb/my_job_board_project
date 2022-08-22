@@ -12,7 +12,7 @@ class Job(models.Model): #job_table
     
     title = models.CharField(max_length=100) #our_title_column
     #location
-    job_type = models.CharField(max_length=20 , choices=Job_Types , default='') #our_job_type_column
+    job_type = models.CharField(max_length=25 , choices=Job_Types , default='') #our_job_type_column
     description = models.TextField(max_length=1000,default='')
     published_at = models.DateTimeField(auto_now=True)
     vacancy = models.IntegerField(default=1)
