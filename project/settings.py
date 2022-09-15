@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'home',
     'contact',
     'accounts',
-    'behave-django',
 ]
 
 MIDDLEWARE = [
